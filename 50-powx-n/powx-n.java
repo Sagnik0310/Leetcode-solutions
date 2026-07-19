@@ -1,5 +1,5 @@
 class Solution {
-    public double helper(double x, long n){
+    public double helper(double x, int n){
         if(n == 0) {
             return 1.0;
         }
@@ -15,7 +15,7 @@ class Solution {
     }
     
     public double myPow(double x, int n) {
-        long N = n;
+        int N = n;
         if(N < 0) {
             x = 1 / x;
             N = -N;
